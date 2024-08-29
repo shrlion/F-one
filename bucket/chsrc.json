@@ -1,15 +1,13 @@
 {
-  "version": "v3.6.0",
-  "description": "A tool for in-depth performance analysis of Python programs.",
-  "homepage": "github.com/P403n1x87/austin",
-  "license": {
-    "url": "https://github.com/P403n1x87/austin/blob/master/LICENSE.md",
-  },
+  "version": "v0.1.8",
+  "description": "A common source change tool for all platforms.",
+  "homepage": "https://github.com/RubyMetric/chsrc",
+  "license": "https://github.com/RubyMetric/chsrc/blob/main/LICENSE-MIT.txt",
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/P403n1x87/austin/releases/download/v3.6.0/austin-3.6.0-win64.zip",
-      "hash": "54b5cb750d36b78b697121a6ba4a85df610835756dac691a5855362ef00d216f"
+      "url": "https://github.com/RubyMetric/chsrc/releases/download/v0.1.8/chsrc-x64-windows.exe",
+      "hash": "39feac18e228320c4c0a709b52202b9e6fb93b67c2f5bc8dda98882f5f8797b4"
     },
     "32bit": {
       "url": "",
@@ -41,13 +39,13 @@
     ""
   ],
   "checkver": {
-    "url": "https://github.com/P403n1x87/austin",
+    "url": "https://github.com/RubyMetric/chsrc",
     "regex": ""
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/P403n1x87/austin/releases/download/v3.6.0/austin-3.6.0-win64.zip"
+        "url": ""
       },
       "32bit": {
         "url": ""
@@ -57,7 +55,7 @@
       }
     },
     "hash": {
-      "url": "",
+      "url": "https://github.com/RubyMetric/chsrc/releases/download/v0.1.8/chsrc-x64-windows.exe",
       "regex": ""
     }
   }
