@@ -1,6 +1,6 @@
 {
     "version": "v3.6.0",
-    "description": "深入 Python 程序性能分析的工具。",
+    "description": "A tool for in-depth performance analysis of Python programs.",
     "homepage": "github.com/P403n1x87/austin",
     "license": {
     "url":"https://github.com/P403n1x87/austin/blob/master/LICENSE.md",
