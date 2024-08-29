@@ -1,10 +1,64 @@
 {
-    "version":  "0.0.1",
-    "license":  "",
-    "extract_dir":  "",
-    "url":  "https://github.com/P403n1x87/austin",
-    "depends":  "",
-    "homepage":  "",
-    "hash":  "",
-    "bin":  ""
+    "version": "v3.6.0",
+    "description": "深入 Python 程序性能分析的工具。",
+    "homepage": "github.com/P403n1x87/austin",
+    "license": {
+    "url":"https://github.com/P403n1x87/austin/blob/master/LICENSE.md",
+  },
+    "notes": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/P403n1x87/austin/releases/download/v3.6.0/austin-3.6.0-win64.zip",
+            "hash": "e6aa9e53e805af03b7d75e7ff2101bd7"
+        },
+        "32bit": {
+            "url": "",
+            "hash": ""
+        },
+        "arm64": {
+            "url": "",
+            "hash": ""
+        }
+    },
+    "pre_install": "",
+    "installer": {
+        "script": ""
+    },
+    "post_install": [
+        "",
+        ""
+    ],
+    "uninstaller": {
+        "script": ""
+    },
+    "bin": "",
+    "env_add_path": [
+        "",
+        ""
+    ],
+    "persist": [
+        "",
+        ""
+    ],
+    "checkver": {
+        "url": "https://github.com/P403n1x87/austin",
+        "regex": ""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/P403n1x87/austin/releases/download/v3.6.0/austin-3.6.0-win64.zip"
+            },
+            "32bit": {
+                "url": ""
+            },
+            "arm64": {
+                "url": ""
+            }
+        },
+        "hash": {
+            "url": "",
+            "regex": ""
+        }
+    }
 }
