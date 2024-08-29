@@ -1,0 +1,62 @@
+{
+  "version": "v2.0.4",
+  "description": "A tool that turns any device into a second screen on your computer.",
+  "homepage": "https://github.com/pavlobu/deskreen",
+  "license": "https://github.com/pavlobu/deskreen/blob/master/LICENSE",
+  "notes": "",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/pavlobu/deskreen/releases/download/v2.0.4/Deskreen.Setup.2.0.4.exe",
+      "hash": "a5c0c4a6f99107a46b893220c75e4cfc244a861cbdc6bafe33e8623ca017de18"
+    },
+    "32bit": {
+      "url": "",
+      "hash": ""
+    },
+    "arm64": {
+      "url": "",
+      "hash": ""
+    }
+  },
+  "pre_install": "",
+  "installer": {
+    "script": ""
+  },
+  "post_install": [
+    "",
+    ""
+  ],
+  "uninstaller": {
+    "script": ""
+  },
+  "bin": "",
+  "env_add_path": [
+    "",
+    ""
+  ],
+  "persist": [
+    "",
+    ""
+  ],
+  "checkver": {
+    "url": "https://github.com/pavlobu/deskreen",
+    "regex": ""
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/pavlobu/deskreen/releases/download/v2.0.4/Deskreen.Setup.2.0.4.exe"
+      },
+      "32bit": {
+        "url": ""
+      },
+      "arm64": {
+        "url": ""
+      }
+    },
+    "hash": {
+      "url": "",
+      "regex": ""
+    }
+  }
+}
