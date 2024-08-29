@@ -7,7 +7,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/RubyMetric/chsrc/releases/download/v0.1.8/chsrc-x64-windows.exe",
-      "hash": "39feac18e228320c4c0a709b52202b9e6fb93b67c2f5bc8dda98882f5f8797b4"
+      "hash": "39740acc3b159d8a0c8e65189078d6708af1f1fff46aed0fd627ce4956c8e78d"
     },
     "32bit": {
       "url": "",

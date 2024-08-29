@@ -7,7 +7,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/duke-git/lancet/archive/refs/tags/v2.3.2.zip",
-      "hash": "595888cd1da6f707c8a15847ac0bd84948a99fa42a90d509423f6efd2460374e"
+      "hash": "8825e9c673dd7f8d9c69acb97f7f6da2de70bfbb4bf90fb8234315067f552756"
     },
     "32bit": {
       "url": "",

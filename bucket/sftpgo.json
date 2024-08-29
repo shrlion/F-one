@@ -7,7 +7,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/drakkan/sftpgo/releases/download/v2.6.2/sftpgo_v2.6.2_windows_x86_64.exe",
-      "hash": "051756f624b35aae85990e4fb64ad54c5f3b97df7ebae3ee9ebb32fe5da4f7b3"
+      "hash": "40905aed44a7189c5df6164631db07bcbb53fab7a63503a6be7ad1328d9986d5"
     },
     "32bit": {
       "url": "",

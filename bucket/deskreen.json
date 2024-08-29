@@ -7,7 +7,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/pavlobu/deskreen/releases/download/v2.0.4/Deskreen.Setup.2.0.4.exe",
-      "hash": "a5c0c4a6f99107a46b893220c75e4cfc244a861cbdc6bafe33e8623ca017de18"
+      "hash": "778f7df34df27b9152400f5ff0bf9660d9017ee61c6d51e263ca4a6a9ee374c1"
     },
     "32bit": {
       "url": "",
