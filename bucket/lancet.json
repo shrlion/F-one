@@ -1,13 +1,13 @@
 {
-  "version": "v0.1.8",
-  "description": "A common source change tool for all platforms.",
-  "homepage": "https://github.com/RubyMetric/chsrc",
-  "license": "https://github.com/RubyMetric/chsrc/blob/main/LICENSE-MIT.txt",
+  "version": "v2.3.2",
+  "description": "A comprehensive library of Go language tools.",
+  "homepage": "https://github.com/duke-git/lancet",
+  "license": "https://github.com/duke-git/lancet/blob/main/LICENSE",
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/RubyMetric/chsrc/releases/download/v0.1.8/chsrc-x64-windows.exe",
-      "hash": "39feac18e228320c4c0a709b52202b9e6fb93b67c2f5bc8dda98882f5f8797b4"
+      "url": "https://github.com/duke-git/lancet/archive/refs/tags/v2.3.2.zip",
+      "hash": "595888cd1da6f707c8a15847ac0bd84948a99fa42a90d509423f6efd2460374e"
     },
     "32bit": {
       "url": "",
@@ -39,13 +39,13 @@
     ""
   ],
   "checkver": {
-    "url": "https://github.com/RubyMetric/chsrc",
+    "url": "https://github.com/duke-git/lancet",
     "regex": ""
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/RubyMetric/chsrc/releases/download/v0.1.8/chsrc-x64-windows.exe"
+        "url": "https://github.com/duke-git/lancet/archive/refs/tags/v2.3.2.zip"
       },
       "32bit": {
         "url": ""

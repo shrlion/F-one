@@ -1,13 +1,13 @@
 {
-  "version": "v0.1.8",
-  "description": "A common source change tool for all platforms.",
-  "homepage": "https://github.com/RubyMetric/chsrc",
-  "license": "https://github.com/RubyMetric/chsrc/blob/main/LICENSE-MIT.txt",
+  "version": "v2.6.2",
+  "description": "SFTP server with integrated cloud storage.",
+  "homepage": "https://github.com/drakkan/sftpgo",
+  "license": "https://github.com/drakkan/sftpgo/blob/main/LICENSE",
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/RubyMetric/chsrc/releases/download/v0.1.8/chsrc-x64-windows.exe",
-      "hash": "39feac18e228320c4c0a709b52202b9e6fb93b67c2f5bc8dda98882f5f8797b4"
+      "url": "https://github.com/drakkan/sftpgo/releases/download/v2.6.2/sftpgo_v2.6.2_windows_x86_64.exe",
+      "hash": "051756f624b35aae85990e4fb64ad54c5f3b97df7ebae3ee9ebb32fe5da4f7b3"
     },
     "32bit": {
       "url": "",
@@ -39,13 +39,13 @@
     ""
   ],
   "checkver": {
-    "url": "https://github.com/RubyMetric/chsrc",
+    "url": "https://github.com/drakkan/sftpgo/releases/tag/v2.6.2",
     "regex": ""
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/RubyMetric/chsrc/releases/download/v0.1.8/chsrc-x64-windows.exe"
+        "url": "https://github.com/drakkan/sftpgo/releases/download/v2.6.2/sftpgo_v2.6.2_windows_x86_64.exe"
       },
       "32bit": {
         "url": ""
