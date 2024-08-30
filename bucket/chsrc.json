@@ -1,62 +1,21 @@
 {
-  "version": "v0.1.8",
-  "description": "A common source change tool for all platforms.",
-  "homepage": "https://github.com/RubyMetric/chsrc",
-  "license": "https://github.com/RubyMetric/chsrc/blob/main/LICENSE-MIT.txt",
-  "notes": "",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/RubyMetric/chsrc/releases/download/v0.1.8/chsrc-x64-windows.exe",
-      "hash": "39740acc3b159d8a0c8e65189078d6708af1f1fff46aed0fd627ce4956c8e78d"
-    },
-    "32bit": {
-      "url": "",
-      "hash": ""
-    },
-    "arm64": {
-      "url": "",
-      "hash": ""
-    }
-  },
-  "pre_install": "",
-  "installer": {
-    "script": ""
-  },
-  "post_install": [
-    "",
-    ""
-  ],
-  "uninstaller": {
-    "script": ""
-  },
-  "bin": "",
-  "env_add_path": [
-    "",
-    ""
-  ],
-  "persist": [
-    "",
-    ""
-  ],
-  "checkver": {
-    "url": "https://github.com/RubyMetric/chsrc",
-    "regex": ""
-  },
-  "autoupdate": {
+    "version": "0.1.8",
+    "description": "A common source change tool for all platforms.",
+    "homepage": "https://github.com/RubyMetric/chsrc",
+    "license": "https://github.com/RubyMetric/chsrc/blob/main/LICENSE-MIT.txt",
+    "notes": "",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/RubyMetric/chsrc/releases/download/v0.1.8/chsrc-x64-windows.exe"
-      },
-      "32bit": {
-        "url": ""
-      },
-      "arm64": {
-        "url": ""
-      }
+        "64bit": {
+            "url": "https://github.com/RubyMetric/chsrc/releases/download/v0.1.8/chsrc-x64-windows.exe",
+            "hash": "39740acc3b159d8a0c8e65189078d6708af1f1fff46aed0fd627ce4956c8e78d"
+        }
     },
-    "hash": {
-      "url": "",
-      "regex": ""
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/RubyMetric/chsrc/releases/download/v$version/chsrc-x64-windows.exe"
+            }
+        }
     }
-  }
 }

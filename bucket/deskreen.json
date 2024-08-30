@@ -1,62 +1,21 @@
 {
-  "version": "v2.0.4",
-  "description": "A tool that turns any device into a second screen on your computer.",
-  "homepage": "https://github.com/pavlobu/deskreen",
-  "license": "https://github.com/pavlobu/deskreen/blob/master/LICENSE",
-  "notes": "",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/pavlobu/deskreen/releases/download/v2.0.4/Deskreen.Setup.2.0.4.exe",
-      "hash": "778f7df34df27b9152400f5ff0bf9660d9017ee61c6d51e263ca4a6a9ee374c1"
-    },
-    "32bit": {
-      "url": "",
-      "hash": ""
-    },
-    "arm64": {
-      "url": "",
-      "hash": ""
-    }
-  },
-  "pre_install": "",
-  "installer": {
-    "script": ""
-  },
-  "post_install": [
-    "",
-    ""
-  ],
-  "uninstaller": {
-    "script": ""
-  },
-  "bin": "",
-  "env_add_path": [
-    "",
-    ""
-  ],
-  "persist": [
-    "",
-    ""
-  ],
-  "checkver": {
-    "url": "https://github.com/pavlobu/deskreen",
-    "regex": ""
-  },
-  "autoupdate": {
+    "version": "2.0.4",
+    "description": "A tool that turns any device into a second screen on your computer.",
+    "homepage": "https://github.com/pavlobu/deskreen",
+    "license": "https://github.com/pavlobu/deskreen/blob/master/LICENSE",
+    "notes": "",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/pavlobu/deskreen/releases/download/v2.0.4/Deskreen.Setup.2.0.4.exe"
-      },
-      "32bit": {
-        "url": ""
-      },
-      "arm64": {
-        "url": ""
-      }
+        "64bit": {
+            "url": "https://github.com/pavlobu/deskreen/releases/download/v2.0.4/Deskreen.Setup.2.0.4.exe",
+            "hash": "778f7df34df27b9152400f5ff0bf9660d9017ee61c6d51e263ca4a6a9ee374c1"
+        }
     },
-    "hash": {
-      "url": "",
-      "regex": ""
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pavlobu/deskreen/releases/download/v$version/Deskreen.Setup.$version.exe"
+            }
+        }
     }
-  }
 }

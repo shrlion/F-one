@@ -1,62 +1,21 @@
 {
-  "version": "v2.6.2",
-  "description": "SFTP server with integrated cloud storage.",
-  "homepage": "https://github.com/drakkan/sftpgo",
-  "license": "https://github.com/drakkan/sftpgo/blob/main/LICENSE",
-  "notes": "",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/drakkan/sftpgo/releases/download/v2.6.2/sftpgo_v2.6.2_windows_x86_64.exe",
-      "hash": "40905aed44a7189c5df6164631db07bcbb53fab7a63503a6be7ad1328d9986d5"
-    },
-    "32bit": {
-      "url": "",
-      "hash": ""
-    },
-    "arm64": {
-      "url": "",
-      "hash": ""
-    }
-  },
-  "pre_install": "",
-  "installer": {
-    "script": ""
-  },
-  "post_install": [
-    "",
-    ""
-  ],
-  "uninstaller": {
-    "script": ""
-  },
-  "bin": "",
-  "env_add_path": [
-    "",
-    ""
-  ],
-  "persist": [
-    "",
-    ""
-  ],
-  "checkver": {
-    "url": "https://github.com/drakkan/sftpgo/releases/tag/v2.6.2",
-    "regex": ""
-  },
-  "autoupdate": {
+    "version": "2.6.2",
+    "description": "SFTP server with integrated cloud storage.",
+    "homepage": "https://github.com/drakkan/sftpgo",
+    "license": "https://github.com/drakkan/sftpgo/blob/main/LICENSE",
+    "notes": "",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/drakkan/sftpgo/releases/download/v2.6.2/sftpgo_v2.6.2_windows_x86_64.exe"
-      },
-      "32bit": {
-        "url": ""
-      },
-      "arm64": {
-        "url": ""
-      }
+        "64bit": {
+            "url": "https://github.com/drakkan/sftpgo/releases/download/v2.6.2/sftpgo_v2.6.2_windows_x86_64.exe",
+            "hash": "40905aed44a7189c5df6164631db07bcbb53fab7a63503a6be7ad1328d9986d5"
+        }
     },
-    "hash": {
-      "url": "",
-      "regex": ""
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/drakkan/sftpgo/releases/download/v$version/sftpgo_v$version_windows_x86_64.exe"
+            }
+        }
     }
-  }
 }
