@@ -1,0 +1,45 @@
+{
+  "version": "1.16.2",
+  "description": "A snipping tool, which allows you to pin the screenshot back onto the screen.",
+  "homepage": "https://www.snipaste.com/",
+  "license": "Unknown",
+  "suggest": {
+    "vcredist": "extras/vcredist2022"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://dl.snipaste.com/win-x64",
+      "hash": "sha1:f53c50a9e5466a96be714b7b61d28875d2b7dd58"
+    },
+    "32bit": {
+      "url": "https://dl.snipaste.com/win-x86",
+      "hash": "sha1:595c7229c9a0f78ae13e736065541b9f656ebbd5"
+    }
+  },
+  "pre_install": [
+    "ensure \"$persist_dir\"",
+    "if (!(Test-Path \"$persist_dir\\config.ini\")) { Set-Content \"$persist_dir\\config.ini\" '' -Encoding ASCII }",
+    "Set-Content \"$dir\\config.ini\" \"[General]`nconfig=$($persist_dir.Replace('\\','/'))/config.ini\" -Encoding ASCII"
+  ],
+  "bin": "Snipaste.exe",
+  "shortcuts": [
+    [
+      "Snipaste.exe",
+      "Snipaste"
+    ]
+  ],
+  "persist": "history",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://dl.snipaste.com/win-x64"
+      },
+      "32bit": {
+        "url": "https://dl.snipaste.com/win-x86"
+      }
+    },
+    "hash": {
+      "url": "https://dl.snipaste.com/sha-1.txt"
+    }
+  }
+}
